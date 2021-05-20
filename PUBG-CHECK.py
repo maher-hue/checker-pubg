@@ -1,3 +1,5 @@
+import os
+os.system('clear')
 import requests,hashlib,random,string,time
 r = requests.session()
 print("""
