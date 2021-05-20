@@ -4,14 +4,14 @@ import requests,hashlib,random,string,time
 r = requests.session()
 print("""
 ██████╗ ██╗   ██╗██████╗  ██████╗
-██╔══██╗██║   ██║██╔══██╗██╔════╝ Checker
+██╔══██╗██║   ██║██╔══██╗██╔════╝ 
 ██████╔╝██║   ██║██████╔╝██║  ███╗
 ██╔═══╝ ██║   ██║██╔══██╗██║   ██║
 ██║     ╚██████╔╝██████╔╝╚██████╔╝
 ╚═╝      ╚═════╝ ╚═════╝  ╚═════╝ 
-        @MR_MHR0 
         
- sors cood by - @AhmedoPlus 
+        
+ BY : MAHER
  
 """)
 ID= input('[+] Enter YOUR ID : ')
@@ -22,7 +22,7 @@ def CHECK(email,pess):
   eml = email
   pas = pess
   YES = f"""
-[✓] Hacked PUBG :
+[✓] HI, MAHER NEW ACC BUPG :
 [✓] Email: {eml}
 [✓] Pass: {pas}
 ━━━━━━━━━━━━━"""
