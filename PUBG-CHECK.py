@@ -25,7 +25,7 @@ def CHECK(email,pess):
   eml = email
   pas = pess
   YES = f"""
-[✓] Hacked PUBG :
+[✓] HI, MAHER NEW ACC PUBG :
 [✓] Email: {eml}
 [✓] Pass: {pas}
 ━━━━━━━━━━━━━"""
