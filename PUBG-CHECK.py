@@ -4,14 +4,27 @@ import requests,hashlib,random,string
 import time, os,sys
 from time import sleep
 r = requests.session()
+ani = sys.platform
+os.system('clear')
+os.system('rm -rf email.txt')
+E = '\033[1;97m'
+A = '\033[1;91m'
+Q = '\033[1;93m'
+G = '\033[1;32m'
+W = '\033[1;95m'
 def ketik(s):
 	for ASU in s + '\n':
 		sys.stdout.write(ASU)
 		sys.stdout.flush()
 		sleep(50. / 700)
+def error():
+	while True:
+		print('')
+		print('خطا في لمعلومات')
+		print('error !! ')
+
 def logo():
 	ketik("""
-	
 --------------------------------------------------	
 	
 ██████╗ ██╗   ██╗██████╗  ██████╗
