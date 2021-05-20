@@ -9,12 +9,6 @@ def ketik(s):
 		sys.stdout.write(ASU)
 		sys.stdout.flush()
 		sleep(50. / 700)
-def error():
-	while True:
-		print('')
-		print('خطا في لمعلومات')
-		print('error !! ')
-
 def logo():
 	ketik("""
 	
