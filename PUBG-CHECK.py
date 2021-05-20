@@ -1,8 +1,25 @@
 import os
 os.system("clear")
-import requests,hashlib,random,string,time
+import requests,hashlib,random,string
+import time, os,sys
+from time import sleep
 r = requests.session()
-print("""
+def ketik(s):
+	for ASU in s + '\n':
+		sys.stdout.write(ASU)
+		sys.stdout.flush()
+		sleep(50. / 700)
+def error():
+	while True:
+		print('')
+		print('خطا في لمعلومات')
+		print('error !! ')
+
+def logo():
+	ketik("""
+	
+--------------------------------------------------	
+	
 ██████╗ ██╗   ██╗██████╗  ██████╗
 ██╔══██╗██║   ██║██╔══██╗██╔════╝ 
 ██████╔╝██║   ██║██████╔╝██║  ███╗
@@ -11,7 +28,8 @@ print("""
 ╚═╝      ╚═════╝ ╚═════╝  ╚═════╝ 
         
         
- BY : MAHER
+ BY : MAHER / @MR_MHR0
+ --------------------------------------------------
  
 """)
 ID= input('[+] Enter YOUR ID : ')
