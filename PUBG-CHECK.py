@@ -1,7 +1,6 @@
 import os
 os.system("clear")
-import requests,hashlib,random,string
-import time, os,sys
+import requests,hashlib,random,string,time
 print("""
 --------------------------------------------------	
 	
