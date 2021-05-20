@@ -1,16 +1,18 @@
 import requests,hashlib,random,string,time
 r = requests.session()
 print("""
+--------------------------------------------------
+
 ██████╗ ██╗   ██╗██████╗  ██████╗
 ██╔══██╗██║   ██║██╔══██╗██╔════╝ Checker
 ██████╔╝██║   ██║██████╔╝██║  ███╗
 ██╔═══╝ ██║   ██║██╔══██╗██║   ██║
 ██║     ╚██████╔╝██████╔╝╚██████╔╝
 ╚═╝      ╚═════╝ ╚═════╝  ╚═════╝ 
-        @MR_MHR0 
         
- sors cood by - @AhmedoPlus 
- 
+        
+       BY : MAHER / @MR_MHR0
+ --------------------------------------------------
 """)
 ID= input('[+] Enter YOUR ID : ')
 token = input('[+] Enter TOKEN BOT : ')
