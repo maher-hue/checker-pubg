@@ -1,5 +1,20 @@
 import os
 os.system('clear')
+pip install requests
+import os
+os.system('clear')
+pip install hashlib
+import os
+os.system('clear')
+pip install random
+import os
+os.system('clear')
+pip install string
+import os
+os.system('clear')
+pip install time
+import os
+os.system('clear')
 import requests,hashlib,random,string,time
 r = requests.session()
 print("""
